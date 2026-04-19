@@ -57,19 +57,21 @@ nav ul li {
 }
 
 nav a {
-    color: #f7e6cd;
+    color: #f7e6cd; /* 米色文字 */
+    background: rgba(87, 21, 20, 0.85); /* 深紅底 */
     text-decoration: none;
     font-size: 0.97rem;
-    padding: 0.35rem 0.6rem;
-    border-radius: 0.35rem;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    padding: 0.45rem 0.85rem;
+    border-radius: 0.4rem;
+    transition: all 0.3s ease;
 }
 
 nav a:hover,
 nav a:focus {
-    background: rgba(255, 214, 145, 0.14);
+    background: #8b3b28; /* 更亮的紅 */
     color: #ffddb6;
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
 }
 
 main {
