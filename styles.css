@@ -57,12 +57,13 @@ nav ul li {
 }
 
 nav a {
-    color: #f7e6cd; /* 米色文字 */
-    background: rgba(87, 21, 20, 0.85); /* 深紅底 */
+    color: #f7e6cd; /* 米色字 */
+    background: #6b1f1a; /* 酒紅底（取代原本米色） */
+    border: 1px solid rgba(212, 177, 141, 0.4);
     text-decoration: none;
     font-size: 0.97rem;
-    padding: 0.45rem 0.85rem;
-    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem; /* 膠囊感 */
     transition: all 0.3s ease;
 }
 
